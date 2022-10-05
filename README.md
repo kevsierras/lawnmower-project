@@ -1,4 +1,5 @@
 # lawnmower-project
 
 ## Group Members 
-Kevin Sierras
+* Kevin Sierras
+* Gabrielle Westby
