@@ -78,7 +78,7 @@ int main() {
   rubric.criterion("disk_state::is_sorted", 3,
      		   [&]() {
              TEST_TRUE("is_sorted() for n=1", alt_one.is_sorted());
-             TEST_FALSE("is_sorted() for n=3", alt_three.is_sorted());
+             TEST_TRUE("is_sorted() for n=3", alt_three.is_sorted());
              TEST_TRUE("is_sorted() after swap", sorted_one.is_sorted());
              TEST_TRUE("is_sorted() after swaps", sorted_three.is_sorted());
            });
